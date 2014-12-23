@@ -1,0 +1,5 @@
+*.a
+*.app
+*.layout
+*.depend
+/out
