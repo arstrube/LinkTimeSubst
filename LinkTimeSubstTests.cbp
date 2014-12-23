@@ -61,6 +61,7 @@
 			<Add option="-Wall" />
 			<Add option="-Werror" />
 		</Compiler>
+		<Unit filename="README" />
 		<Unit filename="RunAllTests.cpp">
 			<Option target="RunAllTests-Mac" />
 		</Unit>
