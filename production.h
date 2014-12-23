@@ -1,2 +1,2 @@
-extern int foo(void);
-extern int bar(void);
+__attribute__((weak)) extern int foo(void);
+__attribute__((weak)) extern int bar(void);
