@@ -64,15 +64,21 @@
 		<Unit filename="RunAllTests.cpp">
 			<Option target="RunAllTests-Mac" />
 		</Unit>
-		<Unit filename="production.h" />
-		<Unit filename="production/production.c">
+		<Unit filename="bar.c">
 			<Option compilerVar="CC" />
 			<Option target="ProductionLib-Mac" />
 		</Unit>
-		<Unit filename="production/production.h">
+		<Unit filename="bar.h">
 			<Option target="ProductionLib-Mac" />
 		</Unit>
-		<Unit filename="stubs.c">
+		<Unit filename="foo.c">
+			<Option compilerVar="CC" />
+			<Option target="ProductionLib-Mac" />
+		</Unit>
+		<Unit filename="foo.h">
+			<Option target="ProductionLib-Mac" />
+		</Unit>
+		<Unit filename="foo_stub.c">
 			<Option compilerVar="CC" />
 			<Option target="RunAllTests-Mac" />
 		</Unit>

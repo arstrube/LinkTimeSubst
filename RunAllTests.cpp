@@ -3,7 +3,8 @@
 
 extern "C"
 {
-    #include "production/production.h"
+    #include "bar.h"
+    #include "foo.h"
 }
 
 TEST_GROUP(LinkTimeSubstitution) {};
