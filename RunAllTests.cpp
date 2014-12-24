@@ -9,9 +9,14 @@ extern "C"
 
 TEST_GROUP(LinkTimeSubstitution) {};
 
-TEST(LinkTimeSubstitution, fooTest)
+TEST(LinkTimeSubstitution, foofooTest)
 {
     LONGS_EQUAL(111, foo());
+}
+
+TEST(LinkTimeSubstitution, fooblaTest)
+{
+    LONGS_EQUAL(222, bla());
 }
 
 TEST(LinkTimeSubstitution, barTest)
